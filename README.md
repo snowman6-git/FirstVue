@@ -1,4 +1,9 @@
-# FirstVue
+# FirstVue - 처음해보는 컴포넌트형 프론트엔드
+기본 html/css/js만 하다 계속 커지는 규모와 정리힘듬, 원하는 기능구현의 편리함에 시작
+
+기존 3web으로 만든것은 [여기](https://github.com/snowman6-git/LinuxStyleWeb)서 확인가능.
+
+딱히 배울점은 없는 레포, 아래는 기본 리드미
 
 This template should help get you started developing with Vue 3 in Vite.
 
