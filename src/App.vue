@@ -3,8 +3,13 @@
 // import HelloWorld from './components/HelloWorld.vue'
 // import Test from './components/songinfo.vue'
 // import Player from './components/mp3player.vue'
+// import AnimeNum from './components/AnimeNum.vue'
+// import AnimeBox from './components/AnimeBox.vue'
+
 import Slide from './components/SildePage.vue'
 import Controller from './components/RemoteCTNL.vue'
+import MyProfile from './components/MyProfile.vue'
+import Card from './components/StackCard.vue'
 
 </script>
 
@@ -13,12 +18,25 @@ import Controller from './components/RemoteCTNL.vue'
     <controller/>
 
     <Slide id="slide-1" class="center">
-      <h1>여긴 1페이지입니다</h1>
-      <br>
-      <div>새로운걸 배우는건 항상 재밌네요</div>
+
+    <div id="card_deck">
+      <Card style="transform: translateX(-10rem);"></Card>
+      <Card style="transform: translateX(-2rem);"></Card>
+      <Card style="transform: translateX(-3rem);"></Card>
+      <Card style="transform: translateX(-4rem);"></Card>
+    </div>
+
     </Slide>
 
+    <!-- <Slide id="slide-1" class="twoside">
+      <div>
+        <MyProfile/>
+      </div>
+      <div>2</div>
+    </Slide> -->
+
     <Slide id="slide-2">
+      <AnimeBox/>
       <h1>여긴 2페이지입니다</h1>
       <div>slot을 쓰면 컴포넌트안에 넣어도 html태그처럼 안에 쓸 수 있습니다</div>
     </Slide>
@@ -33,12 +51,29 @@ import Controller from './components/RemoteCTNL.vue'
 </template>
 
 <style scoped>
+#card_deck{
+  overflow: visible;
+}
 .center{
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   flex-direction: column;
+}
+.end{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.twoside{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  flex-direction: row;
 }
 </style>
 
