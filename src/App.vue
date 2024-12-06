@@ -19,13 +19,6 @@ import Card from './components/StackCard.vue'
 
     <Slide id="slide-1" class="center">
 
-    <div id="card_deck">
-      <Card style="transform: translateX(-10rem);"></Card>
-      <Card style="transform: translateX(-2rem);"></Card>
-      <Card style="transform: translateX(-3rem);"></Card>
-      <Card style="transform: translateX(-4rem);"></Card>
-    </div>
-
     </Slide>
 
     <!-- <Slide id="slide-1" class="twoside">
