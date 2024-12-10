@@ -5,12 +5,10 @@
 // import Player from './components/mp3player.vue'
 // import AnimeNum from './components/AnimeNum.vue'
 // import AnimeBox from './components/AnimeBox.vue'
-
 import Slide from './components/SildePage.vue'
 import Controller from './components/RemoteCTNL.vue'
 import MyProfile from './components/MyProfile.vue'
 import Card from './components/StackCard.vue'
-
 </script>
 
 <template>
@@ -18,7 +16,7 @@ import Card from './components/StackCard.vue'
     <controller/>
 
     <Slide id="slide-1" class="center">
-
+      <Card/>
     </Slide>
 
     <!-- <Slide id="slide-1" class="twoside">
