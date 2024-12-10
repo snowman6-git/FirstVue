@@ -5,10 +5,13 @@
 // import Player from './components/mp3player.vue'
 // import AnimeNum from './components/AnimeNum.vue'
 // import AnimeBox from './components/AnimeBox.vue'
+// import MyProfile from './components/MyProfile.vue'
+
 import Slide from './components/SildePage.vue'
 import Controller from './components/RemoteCTNL.vue'
-import MyProfile from './components/MyProfile.vue'
 import Card from './components/StackCard.vue'
+import Table from './components/Table.vue'
+import Hand from './components/HandDeck.vue'
 </script>
 
 <template>
@@ -16,15 +19,14 @@ import Card from './components/StackCard.vue'
     <controller/>
 
     <Slide id="slide-1" class="center">
-      <Card/>
+      <Hand>
+        <Card name="1"/>
+        <Card name="1"/>
+        <Card name="1"/>
+        <Card name="1"/>
+        <Card name="1"/>
+      </Hand>
     </Slide>
-
-    <!-- <Slide id="slide-1" class="twoside">
-      <div>
-        <MyProfile/>
-      </div>
-      <div>2</div>
-    </Slide> -->
 
     <Slide id="slide-2">
       <AnimeBox/>

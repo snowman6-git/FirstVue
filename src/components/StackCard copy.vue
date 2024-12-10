@@ -8,15 +8,79 @@ defineProps({
 </script>
 
 <template>
-<div class="card">
+
+<div class="fan-container">
+  <div class="card">
+    <!-- td옆으로 상승 2개면 가로 정렬-->
+    <table border="0" id="">
+      <tr>
+        <td>{{ name }}</td>
+      </tr>
+      <tr>
+        <td>icon</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- <div class="card">
   <table border="0" id="">
-    <tr>
-      <td>{{ name }}</td>
-    </tr>
-    <tr>
-      <td>icon</td>
-    </tr>
+      <tr>
+          <td>Setting/설정</td>
+      </tr>
+      <tr>
+          <td>icon</td>
+      </tr>
   </table>
+  </div>
+
+
+  <div class="card">
+  <table border="0" id="">
+      <tr>
+          <td>App/앱</td>
+      </tr>
+      <tr>
+          <td>icon</td>
+      </tr>
+  </table>
+  </div>
+
+
+
+  <div class="card">
+  <table border="0" id="">
+      <tr>
+          <td>Frontend/프론트앤드</td>
+      </tr>
+      <tr>
+          <td>icon</td>
+      </tr>
+  </table>
+  </div>
+
+  <div class="card">
+  <table border="0" id="">
+      <tr>
+          <td>Backend/백앤드</td>
+      </tr>
+      <tr>
+          <td>icon</td>
+      </tr>
+  </table>
+  </div> -->
+
+  <div class="card">
+    <!-- td옆으로 상승 2개면 가로 정렬-->
+    <table border="0" id="">
+      <tr>
+        <td>AboutMe/내 소개</td>
+      </tr>
+      <tr>
+        <td>icon</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 </template>
 
